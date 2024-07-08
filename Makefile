@@ -3,7 +3,7 @@ DIALYZER = dialyzer
 
 ERL       ?= erl
 REBAR3 := $(shell which rebar3 2>/dev/null || echo ./rebar3)
-REBAR3_VERSION := 3.14.1
+REBAR3_VERSION := 3.23.0
 REBAR3_URL := https://github.com/erlang/rebar3/releases/download/$(REBAR3_VERSION)/rebar3
 
 ifeq (,$(STATIC_ERLANG_NIF))
